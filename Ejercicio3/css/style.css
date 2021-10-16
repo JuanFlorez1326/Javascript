@@ -1,0 +1,61 @@
+* {
+    font-family:sans-serif;
+    margin:0;
+    padding:0;
+}
+body {
+    background-color:rgb(0, 19, 75);
+}
+
+header {
+    text-align:center;
+    padding:30px;
+    background-color:rgb(187, 225, 248);
+}
+.menu {
+    margin-bottom:15px;
+}
+
+#letraInicial {
+    border-radius:50%;
+    padding:10px;
+    color:white;
+    text-align:center;
+    width:20px;
+    background:rgb(0, 19, 75);
+}
+.letra {
+    justify-content:center;
+    display:flex;
+}
+.letra h1 {
+    color:rgb(0, 19, 75);
+
+}
+.info {
+    margin:auto;
+    width:300px;
+    height:580px;
+    border:3px groove gray;
+    text-align:center;
+    background-color: rgb(50, 130, 181);
+}
+#contador {
+    color:rgb(0, 19, 75);
+    font-size:20px;
+    padding-right:20px;
+    text-align: right;
+    padding-bottom:15px;
+}
+#nombreUsuario {
+    height:20px;
+    width:260px;
+}
+#btnEnviar {
+    padding:10px 110px 10px 110px;
+}
+
+#mostrarParrafo {
+
+    padding-bottom:10px;
+}
