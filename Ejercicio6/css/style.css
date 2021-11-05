@@ -1,0 +1,21 @@
+*{
+    font-family:sans-serif
+}
+body {
+    background-color: darkgrey;
+}
+
+.info {
+    border:5px solid black;
+    border-radius:20px;
+    width:500px;
+    margin: auto;
+    margin-top:10%;
+    text-align:center;
+    height:300px;
+    padding-top:20px;
+    background-color:rgb(196, 187, 187);
+}
+.info h2 {
+    color:rgb(0, 0, 0);
+}
