@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+body {
+    background-color:#55a09e;
+}
+header {
+    color:#FFFF;
+    background-color:#000000;
+    padding:20px;
+    text-align:center;
+    margin-bottom:30px;
+}
+#elegirCarta{
+    margin-top:10px;
+    margin-bottom:10px;
+    text-align:center;
+    padding:5px 10px 5px 10px;
+    border:none;
+    color:#FFFF;
+    background-color:#285456;
+}
+.divApi{
+    text-align:center;
+    margin:auto;
+    width:90%;
+    height:auto;
+}
+.divApi{
+    margin-bottom:30px;
+}
+.divCarta{
+    margin:auto;
+    background-color:#285456;
+    border:3px solid #000000;
+    width:350px;
+    height:450px;
+}
+.divCarta{
+    margin-top:10px;
+    margin-bottom:15px;
+}
+.tituloCarta{
+    height:70px;
+    padding-top:20px;
+    padding-bottom:10px;
+    color: #051c22;
+    background: #4d8698;
+}
+.imagenCarta{
+    border:2px solid #000000;
+    margin:20px;
+}
+footer{
+    background-color:#000000;
+    color:#FFFF;
+    padding:20px;
+    text-align:center;
+}
+#main{
+    display: flex;
+    flex-wrap: wrap;
+}
