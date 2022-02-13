@@ -1,0 +1,220 @@
+body {
+    background-color:#31323d;
+}
+* {
+    font-family:sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.logoFiguras{
+    background-color: #71747e;
+    border:1px;
+    border-radius:10px;
+    border:4px solid black;
+    width:50px;
+    padding:5px;
+    height:35px;
+    cursor: pointer;
+    margin-top:10px;
+    margin-right:70px;
+}
+.divImgCarrito{
+    height:70px;
+    background-color:#212225;
+    margin-bottom:50px;
+    text-align:right;
+}
+img {
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    border:3px solid #f3c9de;
+    margin-bottom:30px;
+}
+#main {
+    justify-content:center;
+    display:grid;
+    grid-template-columns:repeat(4,300px);
+    grid-template-rows:repeat(2,300px);
+    column-gap:10px;
+    row-gap:140px;
+    margin-bottom:150px;
+}
+.titulo{
+    text-align:center;
+    background: black;
+    color: white;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+.container {
+    border-radius:20px;
+    border:3px solid #a991a5;   
+    text-align:center;
+    margin: auto;
+    padding:30px;   
+}
+.container:hover{
+    margin-top:10px;
+}
+.h2{
+    color: white;
+    font-size:33px;
+    margin-bottom:20px;
+    border-radius:10px;
+}
+.classPrecio {
+    font-size:18px;
+    color:white;
+    border-radius:10px;
+    padding:4px;
+}
+.classBoton {
+    padding:5px;
+    width:90px;
+    border-radius:10px;
+    margin-top:10px;
+    border:2px solid #f3c9de;
+    background:#1A6818;
+    color:white; 
+    cursor: pointer;
+}
+.classBoton:focus{
+    background:#104B0F;
+    cursor: pointer;
+}
+.piePagina{
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:30px;
+    font-size:20px;
+    margin-top:50px;
+}
+
+@media screen and (max-width:1000px) and (min-width:768px){
+    #main{
+        grid-template-columns:repeat(2,300px);
+        grid-template-rows:repeat(4,300px);
+    }
+    .logoFiguras{
+        margin-right:90px;
+    }
+}
+@media screen and (max-width:767px){
+    #main{
+        grid-template-columns:repeat(1,300px);
+        grid-template-rows:repeat(8,300px);
+    }
+    .logoFiguras{
+        margin-right:90px;
+    }
+}
+
+.card_producto{
+    text-align: center;
+    border:3px solid #a991a5;
+    padding:20px;
+    border-radius:20px;
+}
+.tituloCards{
+    margin-bottom:10px;
+    color:white;
+}
+.preciosCards{
+    margin-bottom:5px;
+    color:white;
+}
+.contadorCards{
+    margin-bottom:15px;
+    color:white;
+}
+.botonSuma{
+    padding:5px 15px 5px 15px;
+    margin:0px 5px 0px 0px;
+    border: none;
+    color:white;
+    background-color:#1A6818;
+    border:2px solid #a991a5;
+    border-radius:10px;
+    cursor:pointer;
+}
+.botonResta{
+    margin:0px 5px 0px 5px;
+    padding:5px 15px 5px 15px;
+    border: none;
+    color:white;
+    background-color:rgb(175, 29, 29);
+    border:2px solid #a991a5;
+    border-radius:10px;
+    cursor:pointer;
+}
+.botonEliminar{
+    margin:0px 0px 0px 5px;
+    padding:5px 25px 5px 25px;
+    border:none;
+    color:white;
+    background-color:#d81515d5;
+    cursor:pointer;
+    border:2px solid #a991a5;
+    border-radius:10px;
+}
+
+@media screen and (max-width:1000px) and (min-width:768px){
+    #articulosAdd{
+        grid-template-columns:repeat(2,250px);
+        grid-template-rows:repeat(4,400px);
+    }
+}
+@media screen and (max-width:767px){
+    #articulosAdd{
+        grid-template-columns:repeat(1,250px);
+        grid-template-rows:repeat(8,400px);
+        width:80%;
+    }
+    .carritoCompras{
+        width:90%;
+    }
+}
+
+.carta {
+    display:grid;
+    position: absolute;
+    width:80%;
+    height:135%;
+    grid-template-columns:repeat(4,250px);
+    grid-template-rows:repeat(2,400px);
+    padding: 10px;
+    justify-content:center;
+    column-gap:10px;
+    row-gap:10px;
+    padding-top:20px;
+    right: 70px;
+    top: 180px;
+    background: #212225;
+    border: 3px solid black;
+}
+
+.ocult {
+    display: none;
+}
+
+.btn_carrito:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width:1000px) and (min-width:768px){
+    .carta{
+        grid-template-columns:repeat(2,250px);
+        grid-template-rows:repeat(4,400px);
+        height:280%;
+    }
+}
+@media screen and (max-width:767px){
+    .carta{
+        grid-template-columns:repeat(1,250px);
+        grid-template-rows:repeat(8,400px);
+        height:460%;
+        width:70%;
+    }
+}
